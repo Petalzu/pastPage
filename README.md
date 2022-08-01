@@ -35,8 +35,7 @@ My goal is to create and build a real personal website, so I learned a lot of ad
 In addition, I added a lot of subculture content loved by young people when designing the album. I hope you don't mind them.Thank you for watching.
 
 
-Your student = (haveTheWorstEnglish);
-console.log(Zixuan Chai)
+console.log(Petal)
 2021/11/9
 
 

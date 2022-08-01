@@ -16,8 +16,6 @@ function load2D_bg(){
         timeout = window.requestAnimationFrame(function() {
             var yValue = calcValue(y, window.innerHeight);
             var xValue = calcValue(x, window.innerWidth);
-            
-                    
             background.style.backgroundPositionX = xValue * 1 -200+ "px ";
             background.style.backgroundPositionY =  (-yValue * 0.75-50 ) + "px";
         })
@@ -43,7 +41,6 @@ function load2D_bg2(){
         timeout = window.requestAnimationFrame(function() {
             var yValue = calcValue(y, window.innerHeight);
             var xValue = calcValue(x, window.innerWidth);
-            
             background.style.backgroundPositionX = xValue *1 -200+ "px ";
             background.style.backgroundPositionY =  (-yValue * 0.75-50 ) + "px";
         })
