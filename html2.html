@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Photo</title>
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            
+             * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                background-image: url(./img/background2.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 0;
+            }
+            li {
+                list-style: none;
+            }
+            .box {
+                width: 1200px;
+                height:1600px;
+                margin: 200px auto;
+                overflow: hidden;
+                transition: all .3s;
+            }
+            .box li {
+                float: left;
+                position: relative;
+                width: 200px;
+                height: 320px;
+                transition: all .3s;
+            }
+            div{font-weight:bold}
+            .box li .text {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                font-size: 16px;
+                color:	#FFF;
+                width: 100%;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                background-color: rgba(0,0,0,.3);
+            }
+            .box:hover li {
+                width:140px;
+             }
+             .box li:hover {
+                width: 640px;
+            }
+            h1{
+                position: absolute;
+                letter-spacing: 2px;
+                top: 0;
+                width: 60%;
+                color:#fff;
+                left: 50%;
+                transform: translateX(-50%);
+                padding: 
+                    30px;
+                background-color: rgba(0,0,0,.3);
+                align-content: center  ;   
+                text-align: center;
+            }
+            
+            @media screen and (max-width : 768px) {
+            .box  {
+		background-size:cover;
+            }
+            .box li  {
+		background-size:cover;
+            }
+            .box li .text {
+		background-size:cover;
+            }
+            } 
+            @media screen and (max-width : 1000px) {
+            .box {
+		background-size:130%;
+            }
+            .box li  {
+		background-size:130%;
+            }
+            .box li .text{
+		background-size:130%;
+            }
+            } 
+            @media screen and (max-width : 2333333px) {
+            .box {
+		background-size:130%;
+            }
+            .box li  {
+		background-size:130%;
+            }
+            .box li .text {
+		background-size:130%;
+            }
+}    
+
+            </style>
+            
+ 
+    </head>
+   <body>
+       <h1 >These are my pictures at the ACG exhibition</h1>
+    <ul class="box">
+        <li>
+            <img src="./img/img1.jpg" alt="图片">
+            <div class="text">Booth At The ACG Exhibition<br><br><br><br><br>
+                Booth is a place where ACG original works and collaborative content creation works are sold by officials or collaborative content creation enthusiasts.
+                You can buy whatever you want here.<br>
+                Many works will also choose to sell in diffuse exhibition to attract popularity.
+                Some of them are handmade by handmakers, which is very unique. 
+            </div>
+        </li>
+        <li>
+            <img src="./img/img2.jpg" alt="图片">
+            <div class="text">Klee<br><br><br><br>
+                Klee is one of the characters of the Genshen Impact.
+                She is one of the most popular characters in the game and is very popular at home and abroad.
+                Because of her naughty and lovely characteristics, she is loved by many people.<br>
+                There is no doubt that this coser is also one of the most outstanding cosers
+            </div>
+        </li>
+        <li>
+            <img src="./img/img3.jpg" alt="图片">
+            <div class="text">Cosers On ACG Exhibition<br><br><br><br>
+            Cosplay is the abbreviation of COSTUMEPLAY, which refers to playing roles in works by wearing clothes of various roles, 
+            including animation, comics and video games. 
+            Role playing began in Japan. <br>
+            The people who play Cosplay are because they love those people in the second dimension,
+            want to meet their dream of being close to their favorite people.
+            </div>
+        </li>
+        <li>
+            <img src="./img/img4.jpg" alt="图片">
+            <div class="text">Kirisame Marisa(きりさめ まりさ） <br><br><br><br>
+                Marissa is a character in the TOHO PROJECT and one of my favorite characters. 
+                You can find many cosers playing different roles in the ACG exhibition.<br>
+                You can have a lot of fun in ACG Exhibition,but of course the best souvenir for participating in the ACG exhibition is taking a photo with your favorite Coser. 
+                As long as you pay attention to your etiquette.
+            </div>
+        </li>
+        <li>
+            <img src="./img/img5.jpg" alt="图片">
+            <div class="text">With My Fumo In ACG Exhibition<br><br><br><br>
+                Fumo is a series of nicknames of cloth dolls produced by Gift Co., Ltd. and designed by angeltype, a collaborative content creation group of TOHO.
+                It takes (ᗜˬᗜ) as a symbolic expression.<br>
+                With such dolls, you can quickly become friends with strangers who match your interests.<br>
+                Of course, sometimes it will embarrass you.<br>
+                (HEY!YOU LIKE PLAYING WITH DOLLS?)
+            </div>
+        </li>
+    </ul>
+       <p>
+           ©Petal  All contents shall not be reproduced without permission
+       </p>
+</body>
+
+</html>

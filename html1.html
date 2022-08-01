@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>About Me</title>
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>html,
+            body{
+                margin: 0;
+                padding: 0;
+                height: 200vh;
+                overflow-x: hidden;
+            }
+            .background{
+                background-image: url(./img/background.png);
+                background-size: cover;
+                background-position: 50% 50%;
+                height: 200vh;
+                font:900 39rem'';
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                position: relative;
+                text-align: center;
+                overflow: hidden;
+            }
+            .background::before{
+                content: '';
+                background-size: cover;
+                background-image: inherit;
+                background-position: 50% 50%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right:0;
+                z-index: -99
+            }
+            h1{
+                position: absolute;
+                text-align: center;
+                width: 100%;
+                letter-spacing: 10px;
+                color: #fff;
+            }
+            h2{
+                position: absolute;
+                letter-spacing: 2px;
+                top: 120vh;
+                width: 60%;
+                color:#fff;
+                left: 50%;
+                transform: translateX(-50%);
+                padding: 
+                    30px;
+                background-color: rgba(0,0,0,.3)
+                    ;
+            }
+ 
+        </style>
+        <!--代码一时爽，写完注释火葬场
+        通过双图层平移来伪装特效-->
+    </head>
+    <body>
+        <h1>Petal<br><br>Student of Lanzhou University (ᗜˬᗜ)</h1>
+        <div class="background" ><span>HELLO WORLD</span></div>
+        <h2>
+            My real name is Zixuan Chai. 
+            I am now studying in class 3 of computer science and Technology (Data Science) in the school of information of Lanzhou University.
+            My hobbies are playing badminton, playing games and watching animation，especially TOHO project<br><!-- comment --><br>
+            My website is still under construction……
+            <br><br>
+           ©Petal  All contents shall not be reproduced without permission
+
+        </h2>
+        <script>
+            const background = document.querySelector(".background")
+
+            document.addEventListener('scroll', () => {
+                const scrollY = window.scrollY
+
+                if (scrollY !== 0) {
+                    background.style.backgroundPosition = `calc(50% + ${scrollY}px) calc(50% + ${scrollY}px)`
+                }else{
+                    background.style.backgroundPosition = ''
+                }
+             })
+        </script><!--实验性特效方案，懒得引用所以直接写了-->
+    </body>
+</html>
