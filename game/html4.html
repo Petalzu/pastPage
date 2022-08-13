@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | first project</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <title>Unity Game</title>
+    <link rel="shortcut icon" href="logo.png">
     <link rel="stylesheet" href="TemplateData/style.css">
-  </head>
+    <style>
+      body {
+          background-image: url(background.png);
+          background-repeat: repeat;
+          background-size: cover;
+      }
+      </style>
+</head>
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
@@ -20,7 +27,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">first project</div>
+        <div id="unity-build-title">Platformer Microgame</div>
       </div>
     </div>
     <script>
