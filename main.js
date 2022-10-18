@@ -66,4 +66,3 @@ function getMousePos(event) {
 }
 
 
-//所有特效采用github开源代码
