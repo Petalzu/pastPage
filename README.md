@@ -16,7 +16,7 @@ Based on the software development of neatbeans, I built the personal website.
 
 1. Special effects open source code materials are learned from < a target = "_blank" href=“ https://card.niconi.co.ni "> ll card Checker (specifically shown in the home page special effects).
 
-2. Shutters and layered pseudo effects are the results of my personal learning (specifically shown in the album about me and myself).
+2. Shutters and layered pseudo effects are the results of my personal learning.
 
 3. Blog technology is beyond my ability, so it is temporarily shelved.
 
@@ -32,11 +32,17 @@ Based on the software development of neatbeans, I built the personal website.
 
 My goal is to create and build a real personal website, so I learned a lot of advanced content by myself. Although these contents have not been effectively integrated, I still feel unable to start when facing problems. For example, I am currently facing the problem that adding different effects to the page will affect other content. I hope to launch my personal website one day.
 
-In addition, I added a lot of subculture content loved by young people when designing the album. I hope you don't mind them.Thank you for watching.
+In addition, I added a lot of subculture content loved by young people when designing the album. I hope you don't mind them.
 
 
 console.log(Petal)
 2021/11/9
+
+
+##Update 2023/2/14
+The blog construction has been completed and improved in many aspects.The next step is to improve the video page, photo page and about me page.In addition, my personal articles should be placed on the blog.
+
+I plan to add statistical browsing data and comments, but I still don't know how to do that. First of all, take learning as the goal.
 
 
 
