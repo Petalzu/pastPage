@@ -1,4 +1,4 @@
-## brief introduction
+## Brief introduction
 
 Based on the software development of neatbeans, I built the personal website.
 
@@ -30,16 +30,17 @@ Based on the software development of neatbeans, I built the personal website.
 
 ## Summary:
 
-My goal is to create and build a real personal website, so I learned a lot of advanced content by myself. Although these contents have not been effectively integrated, I still feel unable to start when facing problems. For example, I am currently facing the problem that adding different effects to the page will affect other content. I hope to launch my personal website one day.
+My goal is to create and build a real personal website. I still feel unable to start when facing problems. For example, I am currently facing the problem that adding different effects to the page will affect other content. I hope to launch my personal website one day.
 
-In addition, I added a lot of subculture content loved by young people when designing the album. I hope you don't mind them.
+In addition, I added a lot of subculture content loved by young people when designing the album.
 
 
 console.log(Petal)
 2021/11/9
 
 
-##Update 2023/2/14
+## Update 2023/2/14
+
 The blog construction has been completed and improved in many aspects.The next step is to improve the video page, photo page and about me page.In addition, my personal articles should be placed on the blog.
 
 I plan to add statistical browsing data and comments, but I still don't know how to do that. First of all, take learning as the goal.
