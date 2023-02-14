@@ -45,6 +45,5 @@ The blog construction has been completed and improved in many aspects.The next s
 
 I plan to add statistical browsing data and comments, but I still don't know how to do that. First of all, take learning as the goal.
 
-
-
+Special thanks to my teacher Prof.Castor.(I used some of his code, and I am still waiting for his reply. If there is any change, I will update it in time.)
 
