@@ -6,7 +6,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 <html>
     <head>
         <title>About Me</title>
-        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>html,
@@ -17,7 +17,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                 overflow-x: hidden;
             }
             .background{
-                background-image: url(./img/background.png);
+                background-image: url(../background.jpg);
                 background-size: cover;
                 background-position: 50% 50%;
                 height: 200vh;
@@ -60,6 +60,30 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
                 background-color: rgba(0,0,0,.3)
                     ;
             }
+            @media screen and (max-width : 768px) {
+                h1{
+                    font-size: 2rem;
+                }
+                h2{
+                    font-size: 1rem;
+                }
+
+                .background{
+                    font-size: 2rem;
+                }
+                .background::before{
+                    background-size: cover;
+                    background-image: inherit;
+                    background-position: 50% 50%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right:0;
+                    z-index: -99
+                }
+
+            }
         </style>
         <!--代码一时爽，写完注释火葬场
         通过双图层平移来伪装特效-->
@@ -68,7 +92,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <h1 >Petalzu<br><br>Face the fear, create the future. (ᗜˬᗜ)</h1>
         <div class="background" ><span>HELLO WORLD</span></div>
         <h2>
-            I am now studying computer science and Technology (Data Science) in the Lanzhou University.
             My hobbies are reading, writing and so on.Especially like Toho project.<br><!-- comment --><br>
             My website is still under construction……<br>
             You can read my articles in my blog.
