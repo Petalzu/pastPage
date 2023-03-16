@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset='utf-8' />
-<script src='../dist/index.global.js'></script>
+<script src='../plugin/fullCalendar/dist/index.global.js'></script>
 <script>
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -75,10 +75,26 @@
     max-width: 1100px;
     margin: 0 auto;
   }
+  .site-title {
+  font-size: 26px;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  text-decoration:none;
+}
+.site-title,
+.site-title:visited {
+  color: #424242;
+}
+.site-title:hover {
+  color: #424242;
+  text-decoration: underline;
+}
 
 </style>
 </head>
 <body>
+  <a class="site-title" href="./index.html">Petal</a>
 
   <div id='calendar'></div>
 

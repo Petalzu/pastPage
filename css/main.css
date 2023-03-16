@@ -48,14 +48,15 @@ body {
 
 @media screen and (max-width : 768px) {
 	.background {
-		width: 200%;
-        height: 200%;
+		width: 295%;
+        height: 295%;
 	}
     .background2 {
-        width: 200%;
-		height: 200%;
+        width: 295%;
+		height:295%;
 	}
 }
+
 @media screen and (max-width : 1000px) {
 	.background {
 		background-size:130%;
@@ -217,4 +218,16 @@ body {
         width: 370px;
         height: 65px;
     }
+}
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.footer:hover{
+    text-decoration: underline;
 }
