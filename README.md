@@ -47,3 +47,9 @@ I plan to add statistical browsing data and comments, but I still don't know how
 
 Special thanks to my teacher Prof.Castor.(I used some of his code, and I am still waiting for his reply. If there is any change, I will update it in time.)
 
+
+## Update 2023/3/17
+
+Added a calendar feature based on fullcalendar. The website construction has been preliminarily improved, and no major updates are expected. 
+
+The next step is to migrate the website to a personal server and use a separate domain name.
