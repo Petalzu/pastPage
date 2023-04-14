@@ -53,3 +53,7 @@ Special thanks to my teacher Prof.Castor.(I used some of his code, and I am stil
 Added a calendar feature based on fullcalendar. The website construction has been preliminarily improved, and no major updates are expected. 
 
 The next step is to migrate the website to a personal server and use a separate domain name.
+
+## Update 2023/4/14
+
+Applied for a standalone domain name and can now be accessed at www.petalzu.top. It's a bit bad to have time to rewrite your personal website right now.
